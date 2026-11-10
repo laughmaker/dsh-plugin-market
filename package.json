@@ -1,0 +1,15 @@
+{
+  "name": "dsh-plugin-market",
+  "version": "0.1.0",
+  "private": true,
+  "description": "laughmaker's DSH plugin market index (format 1)",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "validate": "node script/validate-index.mjs index.json https://raw.githubusercontent.com/laughmaker/dsh-plugin-market/main/index.json",
+    "validate:remote": "node script/validate-index.mjs https://raw.githubusercontent.com/laughmaker/dsh-plugin-market/main/index.json"
+  },
+  "devDependencies": {
+    "@deepseek-ai/dsh-plugin-market-index": "0.2.1-alpha.4"
+  }
+}

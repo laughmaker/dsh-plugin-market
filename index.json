@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "title": {
+    "en": "laughmaker's DSH Plugins",
+    "zh": "laughmaker 的 DSH 插件索引"
+  },
+  "description": {
+    "en": "Community index of DeepSeek Harness bundles maintained by laughmaker.",
+    "zh": "laughmaker 维护的 DeepSeek Harness 插件索引。"
+  },
+  "metadata": {
+    "categories": {
+      "productivity": {
+        "title": { "en": "Productivity", "zh": "效率" }
+      }
+    },
+    "labels": {
+      "obsidian": {
+        "title": { "en": "Obsidian", "zh": "Obsidian" }
+      },
+      "task-board": {
+        "title": { "en": "Task board", "zh": "任务看板" }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-obsidian-tasks",
+      "title": {
+        "en": "Obsidian Tasks",
+        "zh": "Obsidian 任务"
+      },
+      "description": {
+        "en": "Obsidian tasks for DeepSeek Harness: six model-facing tools (list/add/complete/move/append/config) plus a graphical task board page in the DSH GUI.",
+        "zh": "把 Obsidian 库接入 DSH 做日常任务管理：六个模型可直接调用的工具（list/add/complete/move/append/config），以及 DSH GUI 里的图形化任务看板页面。"
+      },
+      "icon": "icon.png",
+      "author": "laughmaker",
+      "homepage": "https://github.com/laughmaker/dsh-obsidian-tasks",
+      "repository": {
+        "url": "https://github.com/laughmaker/dsh-obsidian-tasks"
+      },
+      "metadata": {
+        "category": "productivity",
+        "keywords": [
+          "dsh",
+          "deepseek-harness",
+          "obsidian",
+          "tasks",
+          "todo",
+          "board",
+          "kanban"
+        ],
+        "labels": ["obsidian", "task-board"]
+      },
+      "versions": [
+        {
+          "version": "0.15.10",
+          "publishTimestamp": 1794275321,
+          "source": { "type": "npm" },
+          "engines": { "dsh": ">=0.2.1-rc.1 <0.3.0" }
+        }
+      ]
+    }
+  ]
+}

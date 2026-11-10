@@ -20,7 +20,7 @@ https://raw.githubusercontent.com/laughmaker/dsh-plugin-market/main/index.json
 
 | 插件 | 说明 | 来源 |
 | --- | --- | --- |
-| `dsh-obsidian-tasks` | 把 Obsidian 库接入 DSH：六个面向模型的工具（list/add/complete/move/append/config）+ GUI 任务看板页 | npm `dsh-obsidian-tasks@0.15.10` |
+| `dsh-obsidian-tasks` | 把 Obsidian 库接入 DSH：六个面向模型的工具（list/add/complete/move/append/config）+ GUI 任务看板页 | npm `dsh-obsidian-tasks@0.15.11` |
 
 ## 发布新版本
 
